@@ -24,6 +24,9 @@ tensei()
   .databaseConfig({
     type: "mongo",
     dbName: "drug-stoc",
+    user:'jona',
+    password:'jona',
+    clientUrl: 'mongodb+srv://jona:jona@cluster0.xznle.mongodb.net?retryWrites=true&w=majority'
   })
   .resources([
     assignee, comment, tags, task
