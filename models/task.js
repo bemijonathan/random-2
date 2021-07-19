@@ -39,4 +39,4 @@ module.exports = resource("task").fields([
     belongsTo('assignee'),
     hasMany('comment'),
     belongsTo('tag')
-]).perPageOptions([2])
+]).perPageOptions([6])
